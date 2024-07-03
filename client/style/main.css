@@ -34,7 +34,7 @@ nav{
     }
     .menu{
         filter: invert(100%);
-        margin-left: 150px;
+        margin-left: 180px;
     }
     .banner{
         width: 100%;
@@ -99,7 +99,7 @@ nav{
     }
     main{
         width: 100%;
-        height: 2000px;
+        height: 2500px;
         background-color: black;
         position: absolute;
     }
@@ -134,6 +134,27 @@ nav{
         margin-top: 1200px;
         position: absolute;
         margin-left: 0px;
+    }
+    .gradient6{
+        width: 320px;
+        height: 300px;
+        margin-top: 1600px;
+        position: absolute;
+        margin-left: 34px;
+    }
+    .gradient7{
+        width: 320px;
+        height: 300px;
+        margin-top: 1900px;
+        position: absolute;
+        margin-left: 0px;
+    }
+    .gradient8{
+        width: 300px;
+        height: 150px;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 55px
     }
     /* .gradient4{
         width: 300px;
@@ -204,5 +225,430 @@ nav{
     .images_cards{
         height: 60px;
         margin-top: 10px;
+    }
+    .third-block-main{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cool{
+        height: 500px;
+        margin-top: 50px;
+        z-index: 2;
+    }
+    .button_block{
+        width: 80%;
+        height: 15px;
+        /* border: 1px solid white; */
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: -10px;
+        z-index: 3;
+    }
+    .link_button{
+        width: 150px;
+        height: 15px;
+        /* border: 1px solid white; */
+        margin-left: 10px;
+        background: linear-gradient(#00B2FF, #1681E4);
+        color: white;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #second_link{
+        text-align: center;
+        font-size: 5px;
+    }
+    .fourth-block-main{
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images_block{
+        width: 90%;
+        height: 15px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+    }
+    .images_partners{
+        width: 70px;
+        height: 15px;
+    }
+    .button_block2{
+        width: 80%;
+        height: 20px;
+        /* border: 1px solid white; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .link_button2{
+        width: 130px;
+        height: 20px;
+        background: linear-gradient(#00B2FF, #1681E4);
+        color: white;
+        font-size: 9px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        /* border: 1px solid white; */
+        background-color: black;
+        margin-top: 50px;
+        color: white;
+        font-size: 10px;
+    }
+    .block_p{
+        width: 60px;
+        height: auto;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .line_footer{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+    }
+    /* #block_podershka{
+        width: 80px;
+    } */
+    #block_kontakti{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:377px) and (max-width:426px){
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        height: 30px;
+        margin-left: 20px;
+    }
+    .menu{
+        filter: invert(100%);
+        margin-left: 200px;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/banner.png);
+        background-size: cover;
+        background-position: center;
+        margin-top: 0px;
+    }
+    .block{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.622);
+        position: absolute;
+    }
+    .banner-text{
+        color: white;
+        z-index: 3;
+        position: relative;
+        font-size: 15px;
+        margin-left: 10px;
+        font-family: BoldFont;
+    }
+    #banner-text-first{
+        font-size: 15px;
+        margin-top: 60px;
+        font-family: BoldFont;
+    }
+    #banner-text-second{
+        font-size: 10px;
+        font-family: BoldFont;
+    }
+    .carousel{
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid white; */
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .carousel-block{
+        width: 140px;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.633);
+        border-radius: 10px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-block-2{
+        width: 140px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.556);
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .carousel-text{
+        color: white;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    main{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        position: absolute;
+    }
+    .gradient{
+        width: 300px;
+        height: 300px;
+        margin-left: -50px;
+        position: absolute;
+    }
+    .gradient2{
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .gradient3{
+        width: 300px;
+        height: 300px;
+        margin-top: 350px;
+        position: absolute;
+    }
+    .gradient4{
+        width: 300px;
+        height: 300px;
+        margin-top: 650px;
+        position: absolute;
+        margin-left: 150px;
+    }
+    .gradient5{
+        width: 300px;
+        height: 300px;
+        margin-top: 1200px;
+        position: absolute;
+        margin-left: 0px;
+    }
+    .gradient6{
+        width: 320px;
+        height: 300px;
+        margin-top: 1600px;
+        position: absolute;
+        margin-left: 60px;
+    }
+    .gradient7{
+        width: 320px;
+        height: 300px;
+        margin-top: 1900px;
+        position: absolute;
+        margin-left: 0px
+    }
+    .gradient8{
+        width: 300px;
+        height: 150px;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 100px
+    }
+    /* .gradient4{
+        width: 300px;
+        height: 300px;
+        margin-top: 350px;
+        position: absolute;
+    } */
+    .first-block-main{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p-main{
+        color: white;
+        font-size: 9px;
+        z-index: 2;
+    }
+    .table{
+        width: 350px;
+        height: 350px;
+        z-index: 2;
+    }
+    li{
+        color: white;
+        font-size: 10px;
+        padding-left:15px;
+        padding-right: 25px;
+        z-index: 2;
+    }
+    .menu-block{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+        display: none;
+    }
+    .second-block-main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid white; */
+        margin-top: 52px;
+    }
+    .cards{
+        width: 150px;
+        height: 170px;
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        z-index: 2;
+    }
+    .card-p{
+        font-size: 15px;
+        color: white;
+    }
+    .rectengle{
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        z-index: 2;
+    }
+    .images_cards{
+        height: 60px;
+        margin-top: 10px;
+    }
+    .third-block-main{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cool{
+        height: 500px;
+        margin-top: 50px;
+        z-index: 2;
+    }
+    .button_block{
+        width: 80%;
+        height: 15px;
+        /* border: 1px solid white; */
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: -10px;
+    }
+    .link_button{
+        width: 150px;
+        height: 15px;
+        /* border: 1px solid white; */
+        margin-left: 10px;
+        background: linear-gradient(#00B2FF, #1681E4);
+        color: white;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #second_link{
+        text-align: center;
+        font-size: 5px;
+    }
+    .fourth-block-main{
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images_block{
+        width: 90%;
+        height: 15px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+    }
+    .images_partners{
+        width: 70px;
+        height: 15px;
+    }
+    .button_block2{
+        width: 80%;
+        height: 20px;
+        /* border: 1px solid white; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .link_button2{
+        width: 130px;
+        height: 20px;
+        background: linear-gradient(#00B2FF, #1681E4);
+        color: white;
+        font-size: 9px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        /* border: 1px solid white; */
+        background-color: black;
+        margin-top: 50px;
+        color: white;
+        font-size: 10px;
+    }
+    .block_p{
+        width: 60px;
+        height: auto;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .line_footer{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+    }
+    /* #block_podershka{
+        width: 80px;
+    } */
+    #block_kontakti{
+        margin-top: 30px;
     }
 }
